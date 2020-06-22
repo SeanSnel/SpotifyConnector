@@ -14,7 +14,8 @@ namespace SpotifyConnector
 
         private void ShowPlaylist(object sender, EventArgs e)
         {
-
+            PlaylistPage playlistPage = new PlaylistPage();
+            Navigation.PushModalAsync(playlistPage);
         }
     }
 }
