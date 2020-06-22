@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpotifyConnector.iOS", "Spo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpotifyConnector.UI", "SpotifyConnector\SpotifyConnector.UI.csproj", "{493C506A-5CB1-408D-BF04-88DB89359AE3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIConnector", "..\APIConnector\APIConnector.csproj", "{21EAB8D3-4048-4BFE-91E4-232A982EB72F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +75,18 @@ Global
 		{493C506A-5CB1-408D-BF04-88DB89359AE3}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{493C506A-5CB1-408D-BF04-88DB89359AE3}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{493C506A-5CB1-408D-BF04-88DB89359AE3}.Release|iPhoneSimulator.Deploy.0 = Release|Any CPU
+		{21EAB8D3-4048-4BFE-91E4-232A982EB72F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21EAB8D3-4048-4BFE-91E4-232A982EB72F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21EAB8D3-4048-4BFE-91E4-232A982EB72F}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{21EAB8D3-4048-4BFE-91E4-232A982EB72F}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{21EAB8D3-4048-4BFE-91E4-232A982EB72F}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{21EAB8D3-4048-4BFE-91E4-232A982EB72F}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{21EAB8D3-4048-4BFE-91E4-232A982EB72F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21EAB8D3-4048-4BFE-91E4-232A982EB72F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21EAB8D3-4048-4BFE-91E4-232A982EB72F}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{21EAB8D3-4048-4BFE-91E4-232A982EB72F}.Release|iPhone.Build.0 = Release|Any CPU
+		{21EAB8D3-4048-4BFE-91E4-232A982EB72F}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{21EAB8D3-4048-4BFE-91E4-232A982EB72F}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
