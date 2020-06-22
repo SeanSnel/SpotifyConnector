@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpotifyConnector.iOS", "Spo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpotifyConnector.UI", "SpotifyConnector\SpotifyConnector.UI.csproj", "{493C506A-5CB1-408D-BF04-88DB89359AE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIConnector", "..\APIConnector\APIConnector.csproj", "{21EAB8D3-4048-4BFE-91E4-232A982EB72F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpotifyConnector.DataAccess", "..\APIConnector\SpotifyConnector.DataAccess.csproj", "{21EAB8D3-4048-4BFE-91E4-232A982EB72F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
