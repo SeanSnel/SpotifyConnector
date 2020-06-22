@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'macOS-10.15'
+  vmImage: 'macOS-latest'
 
 steps:
 - task: VSBuild@1
