@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel;
+using SpotifyConnector.DataAccess;
 using Xamarin.Forms;
 
 namespace SpotifyConnector
@@ -7,8 +8,11 @@ namespace SpotifyConnector
     [DesignTimeVisible(false)]
     public partial class PlaylistPage : ContentPage
     {
-        public PlaylistPage()
+        private readonly IConnector _spotifyConnector;
+
+        public PlaylistPage(IConnector spotifyConnector)
         {
+            _spotifyConnector = spotifyConnector;
             InitializeComponent();
             GetPlaylist();
         }
